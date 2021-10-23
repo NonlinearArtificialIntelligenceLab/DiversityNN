@@ -1,0 +1,35 @@
+*.pkl
+*.gz
+*.png
+*.txt
+.ipynb_checkpoints
+../runs
+./runs
+*/runs
+/Outputs*
+*/Outputs*
+./Outputs*
+../Outputs*
+/Output*
+*/Output*
+./Output*
+../Output*
+/outputs*
+*/outputs*
+./outputs*
+../outputs*
+/data
+./data
+*/data
+/Data
+./Data
+*/Data
+runs/
+*/Prototyping*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
