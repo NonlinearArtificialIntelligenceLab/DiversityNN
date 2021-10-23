@@ -206,7 +206,6 @@ if __name__ == "__main__":
             + "/"
             + Description
             + "/"
-            + "Anshul/"
             + Options.nn_type
             + "/"
             + f"{Options.n_activations}_{Options.activation_name}_validation_{validation}/"
