@@ -1,6 +1,17 @@
 # DiversityNN
 Code Repository for **Neural networks embrace diversity** paper
 
+- [DiversityNN](#diversitynn)
+  - [Usage](#usage)
+    - [Metalearning](#metalearning)
+    - [Validation training](#validation-training)
+    - [Hessian Analysis](#hessian-analysis)
+  - [Authors](#authors)
+  - [Link to paper](#link-to-paper)
+  - [Key Results](#key-results)
+  - [Code References](#code-references)
+
+
 ## Usage
 
 ### Metalearning
@@ -23,7 +34,7 @@ Code Repository for **Neural networks embrace diversity** paper
     --inner_lr INNER_LR   Learning rate for classifier
     --outer_lr OUTER_LR   Learning rate for activation function
     --inner_mu INNER_MU   SGD momentum for classifier
-    --outer_mu OUTER_MU   SGD momentum for activation function
+    --outer_mu OUTER_MU   RMSprop momentum for activation function
     --inner_hidden_size INNER_HIDDEN_SIZE
                             Hidden Layer size for classifier
     --outer_hidden_size OUTER_HIDDEN_SIZE

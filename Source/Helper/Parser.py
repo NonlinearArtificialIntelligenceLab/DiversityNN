@@ -46,7 +46,7 @@ def parse(description: str) -> Namespace:
         "--outer_mu",
         default=0.8,
         type=float,
-        help="SGD momentum for activation function",
+        help="RMSprop momentum for activation function",
     )
     parser.add_argument(
         "--inner_hidden_size",

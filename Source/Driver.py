@@ -12,7 +12,7 @@ from Helper.Dir import makepath
 from Helper.Parser import parse
 from DataLoading.DataProcessor import MNIST1D, MNIST, CIFAR
 
-Description = "MetaLearningDiversity_single_hiddenLayer_validation_tests"
+Description = "MetaLearningDiversity"
 args = parse(Description)  # parse cmd arguments to driver
 
 #  Setting up the device
@@ -193,7 +193,7 @@ if __name__ == "__main__":
             )
     if Options.act_path is not None:
         metadata = Options.act_path.split("/")[-1].split("_")
-        # Options.activation_name = metadata[1]
+        Options.activation_name = metadata[1]
         Options.n_activations = int(metadata[2])
         Options.seed = int(metadata[7])
         Options.inner_lr = float(metadata[10])
