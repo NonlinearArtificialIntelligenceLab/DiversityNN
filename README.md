@@ -88,6 +88,7 @@ Code Repository for **Neural networks embrace diversity** paper
 Anshul Choudhary, Anil Radhakrishnan, John F. Lindner, Sudeshna Sinha, and William L. Ditto
 
 ## Link to paper
+* [arXiv](https://arxiv.org/abs/2204.04348)
 
 ## Key Results
 * We construct neural networks with learnable activation functions and sere that they quickly diversify from each other under training. 
