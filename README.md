@@ -3,6 +3,8 @@
 # DiversityNN
 Code Repository for **Neural networks embrace diversity** paper
 
+* Find our new and updated repository in jax [here](https://github.com/NonlinearArtificialIntelligenceLab/jaxDiversity)!
+
 - [DiversityNN](#diversitynn)
   - [Usage](#usage)
     - [Metalearning](#metalearning)
